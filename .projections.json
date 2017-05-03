@@ -1,0 +1,9 @@
+{
+    "after/*.vim": {
+    "type": "after"
+    },
+
+    "autoload/*.vim": {
+    "type": "autoload"
+    }
+}
