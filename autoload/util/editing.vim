@@ -59,3 +59,8 @@ function! util#editing#NormalModeDigraph(char2)
   echo 'digraph: ' . l:char1 . a:char2
   return "r\<C-k>" . l:char1 . a:char2
 endfunction
+
+function! util#editing#Comment()
+  return split(get(b:, 'commentary_format', substitute(substitute(substitute(
+        \ &commentstring, '^$', '%s', ''), '\S\zs%s',' %s', '') ,'%s\ze\S', '%s ', '')), '%s', 1)
+endfunction
