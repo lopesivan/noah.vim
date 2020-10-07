@@ -89,7 +89,6 @@ endfunction
 
 function! s:try_insert(skel)
   execute "normal! i_" . a:skel . "\<C-r>=UltiSnips#ExpandSnippet()\<CR>"
-
   if g:ulti_expand_res == 0
     silent! undo
   endif
