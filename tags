@@ -1,0 +1,98 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/7492b90/
+after/*.vim	.projections.json	/^    "after\/*.vim": {$/;"	o
+autoload/*.vim	.projections.json	/^    "autoload\/*.vim": {$/;"	o
+config#Open	autoload/config.vim	/^function! config#Open()$/;"	f
+cpp#Open	autoload/cpp.vim	/^function! cpp#Open()$/;"	f
+cpp#OpenCansiHeader	autoload/cpp.vim	/^function! cpp#OpenCansiHeader()$/;"	f
+cpp#OpenCansiMainSource	autoload/cpp.vim	/^function! cpp#OpenCansiMainSource()$/;"	f
+cpp#OpenCansiSource	autoload/cpp.vim	/^function! cpp#OpenCansiSource()$/;"	f
+cpp#OpenHeader	autoload/cpp.vim	/^function! cpp#OpenHeader()$/;"	f
+g:compiled_file_locations	autoload/util/path.vim	/^let g:compiled_file_locations = {$/;"	v
+g:loaded_swapstrings	autoload/swapstrings.vim	/^let g:loaded_swapstrings = "v1h"$/;"	v
+make#Open	autoload/make.vim	/^function! make#Open()$/;"	f
+maple#Calculus	autoload/maple.vim	/^function! maple#Calculus()$/;"	f
+markdown#DemoteHeading	autoload/markdown.vim	/^function! markdown#DemoteHeading()$/;"	f
+markdown#FollowLinkUnderCursor	autoload/markdown.vim	/^function! markdown#FollowLinkUnderCursor()$/;"	f
+markdown#InsertDashes	autoload/markdown.vim	/^function! markdown#InsertDashes()$/;"	f
+markdown#OpenLine	autoload/markdown.vim	/^function! markdown#OpenLine(trigger)$/;"	f
+markdown#PromoteHeading	autoload/markdown.vim	/^function! markdown#PromoteHeading()$/;"	f
+noah.vim	README.md	/^# noah.vim$/;"	c
+php#ClassNameToTestClassName	autoload/php.vim	/^function! php#ClassNameToTestClassName(className)$/;"	f
+php#FunctionSelect	autoload/php.vim	/^function! php#FunctionSelect(object_type)$/;"	f
+php#GetTestCaseDescription	autoload/php.vim	/^function! php#GetTestCaseDescription()$/;"	f
+php#Open	autoload/php.vim	/^function! php#Open()$/;"	f
+php#PathToClassCategory	autoload/php.vim	/^function! php#PathToClassCategory(path)$/;"	f
+php#PathToClassName	autoload/php.vim	/^function! php#PathToClassName(...)$/;"	f
+php#PathToParentClassName	autoload/php.vim	/^function! php#PathToParentClassName(path)$/;"	f
+php#TestClassNameToClassName	autoload/php.vim	/^function! php#TestClassNameToClassName(className)$/;"	f
+puppet#PathToClassName	autoload/puppet.vim	/^function! puppet#PathToClassName(...)$/;"	f
+s:NormalizeWhitespace	autoload/util/editing.vim	/^function! s:NormalizeWhitespace()$/;"	f
+s:ReindentBuffer	autoload/util/editing.vim	/^function! s:ReindentBuffer()$/;"	f
+s:YankBuffer	autoload/util/editing.vim	/^function! s:YankBuffer()$/;"	f
+s:construct_path_with_new_suffix	autoload/util/path.vim	/^function! s:construct_path_with_new_suffix(head, dir, base, new_suffix)$/;"	f
+s:function_select_a	autoload/php.vim	/^function! s:function_select_a()$/;"	f
+s:function_select_i	autoload/php.vim	/^function! s:function_select_i()$/;"	f
+s:get_git_config_value	autoload/util/snippet.vim	/^function! s:get_git_config_value(key)$/;"	f
+s:is_type	autoload/vim.vim	/^function! s:is_type(type, path)$/;"	f
+s:keepcpo	autoload/swapstrings.vim	/^let s:keepcpo= &cpo$/;"	v
+s:php_source_prefixes	autoload/php.vim	/^let s:php_source_prefixes = [$/;"	v
+s:php_source_segments	autoload/php.vim	/^let s:php_source_segments = [$/;"	v
+s:projection_query	autoload/php.vim	/^function! s:projection_query(key)$/;"	f
+s:script_types	autoload/vim.vim	/^let s:script_types = [$/;"	v
+s:shiftwidth	autoload/util/folding.vim	/^  function! s:shiftwidth()$/;"	f
+s:transmit_do_applescript	autoload/util/transmit.vim	/^function! s:transmit_do_applescript(path) abort$/;"	f
+s:transmit_send_file	autoload/util/transmit.vim	/^function! s:transmit_send_file(path) abort$/;"	f
+s:try_insert	autoload/util/snippet.vim	/^function! s:try_insert(skel)$/;"	f
+sh#Open	autoload/sh.vim	/^function! sh#Open()$/;"	f
+swapstrings#SwapStrings	autoload/swapstrings.vim	/^fun! swapstrings#SwapStrings(literal,s1,s2) range$/;"	f
+type	.projections.json	/^    "type": "after"$/;"	s	object:after/*.vim
+type	.projections.json	/^    "type": "autoload"$/;"	s	object:autoload/*.vim
+ultisnips_custom	after/plugin/ultisnips_custom.vim	/^augroup ultisnips_custom$/;"	a
+util#Cdo	autoload/util.vim	/^function! util#Cdo(filewise, cmd)$/;"	f
+util#ShoppingList	autoload/util.vim	/^function! util#ShoppingList() abort$/;"	f
+util#buffer#Bdelete	autoload/util/buffer.vim	/^function! util#buffer#Bdelete(bang) abort$/;"	f
+util#buffer#Bufonly	autoload/util/buffer.vim	/^function! util#buffer#Bufonly(buffer, bang)$/;"	f
+util#ctrlp#Statusline1	autoload/util/ctrlp.vim	/^function! util#ctrlp#Statusline1(...)$/;"	f
+util#ctrlp#Statusline2	autoload/util/ctrlp.vim	/^function! util#ctrlp#Statusline2(...)$/;"	f
+util#editing#Comment	autoload/util/editing.vim	/^function! util#editing#Comment()$/;"	f
+util#editing#NormalModeDigraph	autoload/util/editing.vim	/^function! util#editing#NormalModeDigraph(char2)$/;"	f
+util#editing#NormalizeWhitespace	autoload/util/editing.vim	/^function! util#editing#NormalizeWhitespace()$/;"	f
+util#editing#Preserve	autoload/util/editing.vim	/^function! util#editing#Preserve(func, ...)$/;"	f
+util#editing#ReindentBuffer	autoload/util/editing.vim	/^function! util#editing#ReindentBuffer()$/;"	f
+util#editing#YankBuffer	autoload/util/editing.vim	/^function! util#editing#YankBuffer()$/;"	f
+util#filetype#MakeRocketMaps	autoload/util/filetype.vim	/^function! util#filetype#MakeRocketMaps()$/;"	f
+util#filetype#MakeSemicolonMaps	autoload/util/filetype.vim	/^function! util#filetype#MakeSemicolonMaps()$/;"	f
+util#filetype#MakeXMLMaps	autoload/util/filetype.vim	/^function! util#filetype#MakeXMLMaps()$/;"	f
+util#filetype#Map	autoload/util/filetype.vim	/^function! util#filetype#Map(type, lhs, rhs)$/;"	f
+util#folding#Text	autoload/util/folding.vim	/^function! util#folding#Text()$/;"	f
+util#format#JsBeautify	autoload/util/format.vim	/^function! util#format#JsBeautify() range abort$/;"	f
+util#make#Recompile	autoload/util/make.vim	/^function! util#make#Recompile(path)$/;"	f
+util#marks#Choose	autoload/util/marks.vim	/^function! util#marks#Choose(bang) abort$/;"	f
+util#path#CompiledVersion	autoload/util/path.vim	/^function! util#path#CompiledVersion(path)$/;"	f
+util#path#CompleteHead	autoload/util/path.vim	/^function! util#path#CompleteHead(path_prefix, filename_pattern, A, L, P)$/;"	f
+util#path#FindFileWithAlternateName	autoload/util/path.vim	/^function! util#path#FindFileWithAlternateName(path, alternates)$/;"	f
+util#path#FollowSymlink	autoload/util/path.vim	/^function! util#path#FollowSymlink()$/;"	f
+util#path#RemovePrefix	autoload/util/path.vim	/^function! util#path#RemovePrefix(prefix, path)$/;"	f
+util#plug#LoadIdle	autoload/util/plug.vim	/^function! util#plug#LoadIdle()$/;"	f
+util#plug#LoadInsert	autoload/util/plug.vim	/^function! util#plug#LoadInsert()$/;"	f
+util#snippet#Author	autoload/util/snippet.vim	/^function! util#snippet#Author()$/;"	f
+util#snippet#Copyright	autoload/util/snippet.vim	/^function! util#snippet#Copyright()$/;"	f
+util#snippet#Email	autoload/util/snippet.vim	/^function! util#snippet#Email()$/;"	f
+util#snippet#ExpandSnippetOrCompleteMaybe	autoload/util/snippet.vim	/^function! util#snippet#ExpandSnippetOrCompleteMaybe()$/;"	f
+util#snippet#GitHubUsername	autoload/util/snippet.vim	/^function! util#snippet#GitHubUsername()$/;"	f
+util#snippet#InsertSkeleton	autoload/util/snippet.vim	/^function! util#snippet#InsertSkeleton() abort$/;"	f
+util#snippet#ProjectAuthor	autoload/util/snippet.vim	/^function! util#snippet#ProjectAuthor()$/;"	f
+util#snippet#ProjectTitle	autoload/util/snippet.vim	/^function! util#snippet#ProjectTitle()$/;"	f
+util#snippet#Title	autoload/util/snippet.vim	/^function! util#snippet#Title(basename)$/;"	f
+util#test#ReadFixture	autoload/util/test.vim	/^function! util#test#ReadFixture(ext)$/;"	f
+util#test#SelectTextObject	autoload/util/test.vim	/^function! util#test#SelectTextObject(line_number, object)$/;"	f
+util#transmit#Send	autoload/util/transmit.vim	/^function! util#transmit#Send(bang, path) abort$/;"	f
+vim#GuessFunctionPrefix	autoload/vim.vim	/^function! vim#GuessFunctionPrefix(path)$/;"	f
+vim#Modeline	autoload/vim.vim	/^function! vim#Modeline()$/;"	f
