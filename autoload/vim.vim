@@ -23,7 +23,7 @@ function! vim#GuessFunctionPrefix(path)
 endfunction
 
 function! vim#Modeline()
-  return 'vim: fdm=marker:sw=2:sts=2:et'
+  return 'vim: fdm=marker:sw=4:sts=4:et'
 endfunction
 
 " vim: fdm=marker:sw=2:sts=2:et
