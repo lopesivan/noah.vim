@@ -119,7 +119,7 @@ function! util#snippet#InsertSkeleton() abort
   endif
 
   " Try generic _skel template as last resort
-  call s:try_insert("skel")
+  call s:try_insert("skeleton")
 endfunction
 
 " vim:set et sw=2:
