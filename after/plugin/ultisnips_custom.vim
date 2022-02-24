@@ -1,7 +1,9 @@
 " ultisnips_custom.vim - Custom UltiSnips settings
 " Maintainer:   Noah Frederick
 
-if exists(":SkelEdit") || !has("python")
+" if exists(":SkelEdit") || !has("python")
+if exists(":SkelEdit")
+  echo "UltiSnips requires SkelEdit and Python to be installed."
   finish
 endif
 
